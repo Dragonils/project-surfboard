@@ -1,0 +1,21 @@
+.feature {
+  display: flex;
+  margin-right: 34px;
+  align-items: center;
+  j
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__icon {
+  width: 35px;
+  margin-right: 15px;
+}
+
+.feature__text {
+  font-size: 16px;
+  max-width: 90px;
+  font-weight: 700;
+}
