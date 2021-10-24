@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.3889rem;
+}
+
+.header__nav {
+  @include tablets {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: flex ;
+  align-items: center;
+} 
+
+.nav__item {
+  margin-right: 1.2222rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contacts__phone {
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.contacts-phone__icon-elem {
+  width: 0.6667rem;
+  height: 0.6667rem;
+  margin-right: 0.3333rem;
+}

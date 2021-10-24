@@ -1,0 +1,23 @@
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1.8889rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+j .feature:last-child {
+  margin-right: 0;
+}
+
+.feature__icon {
+  width: 1.9444rem;
+  margin-right: 0.8333rem;
+}
+
+.feature__text {
+  font-size: 0.8889rem;
+  max-width: 5rem;
+  font-weight: 700;
+}
